@@ -42,6 +42,7 @@ python3 train.py \
 
 ### Pretrained Model
 I3D after pretrained K400 (coming soon!)
+
 I3D after finetune on UCF101 (Acc@1 88.6) (coming soon!)
 
 ### Action Recognition Downstream Evaluation
