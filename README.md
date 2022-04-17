@@ -5,7 +5,9 @@ Official pytorch implementation of our CVPR 2022 paper [Motion-aware Contrastive
 Contrastive learning in the video domain exists severe background bias. When naively pulling two augmented views of a video closer, the model however tends to learn the common static background as a shortcut but fails to capture the motion information, a phenomenon dubbed as background bias. We introduce Foreground-background Merging (FAME), a novel augmentation technique to deliberately compose the moving foreground region of the selected video onto the static background of others. Specifically, without any off-the-shelf detector, we extract the moving foreground out of background regions via the frame difference and color statistics, and shuffle the background regions among the videos. By leveraging the semantic consistency between the original clips and the fused ones, the model focuses more on the motion patterns and is debiased from the background shortcut. 
 
 ![teaser](Figure/teaser.png)
-
+<p align="center">
+  <img width="100%" alt="teaser" src="https://github.com/Mark12Ding/FAME/blob/main/Figure/teaser.png">
+</p>
 [[Project Page]](https://mark12ding.github.io/project/CVPR22_FAME/) [[arXiv]](https://arxiv.org/abs/2109.15130) [[PDF]](https://mark12ding.github.io/project/CVPR22_FAME/asset/CVPR22_FAME.pdf)
 
 ## Usage
