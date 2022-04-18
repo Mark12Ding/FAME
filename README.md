@@ -41,9 +41,9 @@ python3 train.py \
 ```
 
 ### Pretrained Model
-I3D after pretrained K400 (coming soon!)
+I3D after pretrain on K400 [google drive](https://drive.google.com/file/d/1hPcV9gywiNVX0URVWWQprZvhzbRq_bov/view?usp=sharing)
 
-I3D after finetune on UCF101 (Acc@1 88.6) (coming soon!)
+I3D after finetune on UCF101 (Acc@1 88.9) [google drive](https://drive.google.com/file/d/1kAxcnDw4VEy1QHRDoNXO9RjWHq1AuWse/view?usp=sharing}
 
 ### Action Recognition Downstream Evaluation
 In default, we finetune backbone I3D on UCF101 on a single node with 4 NVIDIA V100 gpus for 150 epochs.
