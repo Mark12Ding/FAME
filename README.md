@@ -80,11 +80,10 @@ Our code is based on the implementation of [VideoMoCo](https://github.com/tinapa
 If our code is helpful to your work, please consider citing:
 ```
 @inproceedings{ding2022motion,
-  title={Motion-aware Contrastive Video Representation Learning via Foreground-background Merging},
-  author={Ding, Shuangrui and Li, Maomao and Yang, Tianyu and Qian, Rui and Xu, Haohang and Chen, Qingyi and Wang, Jue and  Xiong, Hongkai},
+  title={Motion-Aware Contrastive Video Representation Learning via Foreground-Background Merging},
+  author={Ding, Shuangrui and Li, Maomao and Yang, Tianyu and Qian, Rui and Xu, Haohang and Chen, Qingyi and Wang, Jue and Xiong, Hongkai},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  address = {New Orleans, LA, USA},
-  month = {June},
+  pages={9716--9726},
   year={2022}
 }
 ```
